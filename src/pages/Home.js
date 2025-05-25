@@ -12,7 +12,7 @@ function HomePage() {
   const [loading, setLoading] = useState(false);
   const [category, setCategory] = useState(null);
 
-  const API_KEY = process.env.REACT_APP_THE_NEWS_API_KEY;
+  const API_KEY = "7ea35d6a1b78412d9edead67dda5ff66";
 
   const fetchNews = useCallback(async () => {
     setLoading(true);
